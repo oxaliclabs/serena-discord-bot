@@ -1,0 +1,35 @@
+{
+  "name": "serena-oxalic-lab-bot",
+  "version": "1.0.0",
+  "description": "Discord community assistant using Gemini chat and Cloudflare image generation.",
+  "main": "index.js",
+  "license": "ISC",
+  "author": {
+    "name": "ishowpunjab",
+    "email": "ishowpunjab@proton.me"
+  },
+  "contributors": [
+    {
+      "name": "Oxalic Lab"
+    }
+  ],
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "community-manager",
+    "chatbot"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.19.3",
+    "libsodium-wrappers": "^0.7.15",
+    "ws": "^8.18.0"
+  }
+}
